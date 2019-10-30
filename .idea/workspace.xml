@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="109643dc-4077-49ab-bdc8-5bb84b493e16" name="Default Changelist" comment="" />
+    <list default="true" id="109643dc-4077-49ab-bdc8-5bb84b493e16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/LLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/LLParser.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +28,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PA1-B" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -180,7 +184,7 @@
       <workItem from="1572439035968" duration="17000" />
       <workItem from="1572439065721" duration="8000" />
       <workItem from="1572439125537" duration="39000" />
-      <workItem from="1572439350737" duration="5484000" />
+      <workItem from="1572439350737" duration="5771000" />
     </task>
     <servers />
   </component>

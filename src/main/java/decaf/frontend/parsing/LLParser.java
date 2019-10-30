@@ -122,16 +122,18 @@ public class LLParser extends Phase<InputStream, Tree.TopLevel> {
             Set<Integer> new_follow = new HashSet<>(follow);
             new_follow.addAll(followSet(symbol));
             var result = query(symbol, token); // get production by lookahead symbol
+            System.out.println("parsing: " + symbol);
             if(result == null)
             {
                 while(query(symbol, token) == null)
                 {
                     token = nextToken();
+                    System.out.println(token);
                     result = query(symbol, token);
                     if(result != null)
                         break;
                     if(new_follow.contains(token))
-                        return null; 
+                        return null;
                 }
             }
             var actionId = result.getKey(); // get user-defined action
