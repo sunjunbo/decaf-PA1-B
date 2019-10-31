@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109643dc-4077-49ab-bdc8-5bb84b493e16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/decaf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/decaf-2019-TestCases-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/decaf-2019-TestCases-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decaf-2019-TestCases-master/testAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/testAll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/AbstractParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/AbstractParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/LLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/LLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ll1pg/Decaf.spec" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ll1pg/Decaf.spec" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +81,7 @@
   </component>
   <component name="RunManager" selected="Application.haha">
     <configuration name="haha" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH" value="12.0.2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="decaf.Main" />
       <module name="decaf.main" />
@@ -178,6 +170,7 @@
       <workItem from="1572439350737" duration="5771000" />
       <workItem from="1572448240896" duration="10935000" />
       <workItem from="1572504048012" duration="6650000" />
+      <workItem from="1572519142279" duration="2471000" />
     </task>
     <servers />
   </component>

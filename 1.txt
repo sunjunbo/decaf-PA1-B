@@ -1,7 +1,5 @@
-class Main {
-    void f(){
-	();
-	int a = 4;
-
+class A{
+	void f(){
+		int a = ();
 	}
 }
