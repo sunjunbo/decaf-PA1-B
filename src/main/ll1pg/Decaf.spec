@@ -673,7 +673,6 @@ ExprT8          :   '[' Expr ']' ExprT8
                         var sv = new SemValue();
                         sv.id = $2.id;
                         sv.pos = $2.pos;
-                        sv.id = $2.id;
                         $$ = $3;
                         $$.thunkList.add(0, sv);
                     }
@@ -750,7 +749,7 @@ AfterNewExpr    :   Id '(' ')'
                     {
                         $$ = svId($1.id);
                     }
-                |   AtomType NewArrayOrLambdaRem
+                |    AtomType  NewArrayOrLambdaRem
                 {
                        $$ = $1;
                        $$.expr = $2.thunkList.get($2.thunkList.size()-1).expr;

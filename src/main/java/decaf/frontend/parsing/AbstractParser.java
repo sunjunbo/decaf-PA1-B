@@ -25,7 +25,7 @@ abstract class AbstractParser {
      */
     abstract boolean parse();
 
-    private AbstractLexer lexer;
+    protected AbstractLexer lexer;
 
     private ErrorIssuer issuer;
 

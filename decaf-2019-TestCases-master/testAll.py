@@ -11,7 +11,7 @@ DECAF_JAR = os.path.join('..', 'build', 'libs', 'decaf.jar')
 # Scala:
 # DECAF_JAR = os.path.join('..', 'target', 'decaf.jar')
 
-TIMEOUT_SECONDS = 5
+TIMEOUT_SECONDS = 2
 SHOW_DIFF = True
 SHOW_COLOR = True
 diff = difflib.Differ()
@@ -176,7 +176,7 @@ class MipsTester(Tester):
 
 TARGETS = {
     'PA1-A': (['S1'], [], PA1ATester),
-    'PA1-B': (['S1', 'S1-LL'], ['abstract1.decaf', 'abstract3.decaf', 'lambdabad1.decaf'], PA1BTester),
+    'PA1-B': ([ 'S1','S1-LL'], ['abstract1.decaf', 'abstract3.decaf', 'lambdabad1.decaf'], PA1BTester),
     'PA2': (['S2'], [], PA2Tester),
     'PA3': (['S3'], [], PA3Tester),
     'jvm': (['S3-JVM'], [], JVMTester),

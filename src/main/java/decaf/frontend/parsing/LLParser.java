@@ -3,6 +3,7 @@ package decaf.frontend.parsing;
 import decaf.driver.error.DecafError;
 import decaf.driver.Config;
 import decaf.driver.Phase;
+import decaf.driver.error.MsgError;
 import decaf.frontend.tree.Tree;
 import decaf.lowlevel.log.IndentPrinter;
 import decaf.printing.PrettyTree;
@@ -122,18 +123,15 @@ public class LLParser extends Phase<InputStream, Tree.TopLevel> {
             Set<Integer> new_follow = new HashSet<>(follow);
             new_follow.addAll(followSet(symbol));
             var result = query(symbol, token); // get production by lookahead symbol
-            System.out.println("parsing: " + symbol);
-            if(result == null)
-            {
-                while(query(symbol, token) == null)
-                {
-                    token = nextToken();
-                    System.out.println(token);
-                    result = query(symbol, token);
-                    if(result != null)
-                        break;
-                    if(new_follow.contains(token))
+            //System.out.println("parsing: " + symbol);
+            if (result == null) {
+                issue(new MsgError(lexer.getPos(), "syntax error"));
+                while ((result = query(symbol, token)) == null) {
+                    //System.out.println(token);
+                    if (new_follow.contains(token))
                         return null;
+                    token = nextToken();
+
                 }
             }
             var actionId = result.getKey(); // get user-defined action
@@ -147,10 +145,17 @@ public class LLParser extends Phase<InputStream, Tree.TopLevel> {
                 params[i + 1] = isNonTerminal(term)
                         ? parseSymbol(term, new_follow) // for non terminals: recursively parse it
                         : matchToken(term) // for terminals: match token
-                ;
+                ;/*
+                if (params[i + 1] == null) {
+                    if (followSet(symbol).contains(token)) {
+                        return isNonTerminal(token) ? parseSymbol(token, follow) : matchToken(token);
+                    } else {
+                        return null;
+                    }
+                }*/
             }
-
-            act(actionId, params); // do user-defined action
+            if(errors.isEmpty())
+                act(actionId, params); // do user-defined action
             return params[0];
         }
 

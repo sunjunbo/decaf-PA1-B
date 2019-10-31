@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109643dc-4077-49ab-bdc8-5bb84b493e16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/decaf-2019-TestCases-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/decaf-2019-TestCases-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decaf-2019-TestCases-master/testAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/decaf-2019-TestCases-master/testAll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/AbstractParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/AbstractParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/LLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decaf/frontend/parsing/LLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ll1pg/Decaf.spec" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ll1pg/Decaf.spec" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +51,10 @@
   <component name="ProjectId" id="1Sm0kJOb3V0Tqc2gUmKaB1Ps9HU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/libs/decaf.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,10 +62,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -76,7 +89,7 @@
   </component>
   <component name="RunManager" selected="Application.haha">
     <configuration name="haha" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="12.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="decaf.Main" />
       <module name="decaf.main" />
@@ -125,28 +138,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="testAll" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="decaf-PA1-B" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decaf-2019-TestCases-master" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decaf-2019-TestCases-master/testAll.py" />
-      <option name="PARAMETERS" value="PA1-B" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.haha" />
       <item itemvalue="Gradle.decaf-PA1-B [clean]" />
@@ -185,6 +176,8 @@
       <workItem from="1572439065721" duration="8000" />
       <workItem from="1572439125537" duration="39000" />
       <workItem from="1572439350737" duration="5771000" />
+      <workItem from="1572448240896" duration="10935000" />
+      <workItem from="1572504048012" duration="6650000" />
     </task>
     <servers />
   </component>
@@ -199,11 +192,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/PA1-B" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
